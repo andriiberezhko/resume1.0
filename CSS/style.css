@@ -15,6 +15,7 @@ body {
 /* main content section */
 .main-content-section {
   padding: 100px 90px 100px 90px;
+  width: 60vw;
 }
 /* about me section */
 .about-me-section {
@@ -42,7 +43,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 400px;
+  /* width: 50vw; */
 }
 /* my project section */
 .my-title {
