@@ -2,6 +2,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+a {
+  text-decoration: none;
+}
 
 .main-section {
   display: flex;
@@ -42,7 +45,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #1c1c1c;
   /* width: 50vw; */
 }
 /* my project section */
@@ -72,7 +75,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #1c1c1c;
   margin-left: 10px;
 }
 .my-projects-link {
@@ -80,7 +83,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #1c1c1c;
 }
 .my-projects-brecket {
   font-style: normal;
@@ -112,7 +115,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #444444;
 }
 .divider {
   font-style: normal;
@@ -126,7 +129,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #1c1c1c;
   padding-left: 17px;
   margin-bottom: 15px;
 }
@@ -150,19 +153,21 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .education-period {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #444444;
+  margin-top: 5px;
 }
 
 /* sidebar section */
 .sidebar-section {
-  width: 370px;
+  width: 40%;
   padding: 40px 0;
   background-color: #1e2939;
 }
@@ -181,6 +186,9 @@ body {
 }
 /* contacts section */
 .contact-section-tipe {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -193,8 +201,9 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
+
 .list {
   padding-left: 20px;
 }
