@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f7fa;
+  /* background-color: #f5f7fa; */
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -9,10 +10,10 @@ a {
 .main-section {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  /* width: 1200px;
   background-color: #ffffff;
   margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
 }
 
 /* main content section */
@@ -27,7 +28,7 @@ a {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: black;
   margin: 0 0 20px 0;
@@ -43,7 +44,7 @@ a {
 .about-me-description {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #1c1c1c;
   /* width: 50vw; */
@@ -66,14 +67,14 @@ a {
 .my-projects-item {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
 .my-projects-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #1c1c1c;
   margin-left: 10px;
@@ -81,14 +82,14 @@ a {
 .my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #1c1c1c;
 }
 .my-projects-brecket {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
@@ -101,33 +102,37 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #000000;
+  margin-top: 10px;
+}
+.position {
+  margin-bottom: 10px;
 }
 .my-work-expirience-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 .time-of-work {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #444444;
 }
 .divider {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #000000;
 }
 .duties-list {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #1c1c1c;
   padding-left: 17px;
@@ -142,15 +147,15 @@ a {
 .my-university {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #000000;
   margin-bottom: 10px;
 }
 .speciality {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 5px;
@@ -159,7 +164,7 @@ a {
 .education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #444444;
   margin-top: 5px;
@@ -191,14 +196,14 @@ a {
   padding: 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 7px;
 }
 .contact-section-link {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   /* opacity: 0.5; */
@@ -208,12 +213,12 @@ a {
   padding-left: 20px;
 }
 .tech-skils-item {
-  color: #fb6d3a;
+  color: #ffffff;
 }
 .list-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
 }
